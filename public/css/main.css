@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Montserrat:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  background-color: hsl(218deg, 23%, 16%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.container .advaice__box {
+  font-size: 0.7rem;
+  background-color: hsl(217deg, 19%, 38%);
+  padding: 0.5rem;
+  border-radius: 10px;
+  position: relative;
+}
+.container .advaice__box .advaice__number {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  text-align: center;
+  color: hsl(150deg, 100%, 66%);
+  margin-bottom: 1rem;
+}
+.container .advaice__box .advaice__text {
+  color: hsl(193deg, 38%, 86%);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.container .advaice__box .advaice__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.container .advaice__box .advaice__btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: hsl(150deg, 100%, 66%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.container .advaice__box .advaice__btn:hover {
+  box-shadow: 0px 0px 60px hsl(150deg, 100%, 66%);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
